@@ -1,0 +1,11 @@
+#include "mygraph.h"
+
+MyGraph::MyGraph(QObject *parent) : QObject(parent)
+{
+    this->G = nullptr;
+}
+
+void MyGraph::CreateMyGraph()
+{
+    
+}
